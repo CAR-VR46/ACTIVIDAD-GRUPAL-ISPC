@@ -13,7 +13,7 @@
   <h3>Ceremonias</h3>
   
   - Definición:
-    > 
+    > Las ceremonias del scrum, o los eventos del scrum, son una parte importante del progeso ágil de un proyecto. Las cuatro ceremonias principales son las reuniones que tienen lugar en las iteraciones o sprints, y que pretenden asegurar el rápido y constante progreso del equipo Scrum, a la par que mejora continuamente su forma de trabajar.
   
   - Planificación del sprint:
     > 
