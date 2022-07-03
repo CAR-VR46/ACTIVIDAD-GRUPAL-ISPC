@@ -16,16 +16,19 @@
     > Las ceremonias del scrum, o los eventos del scrum, son una parte importante del progeso ágil de un proyecto. Las cuatro ceremonias principales son las reuniones que tienen lugar en las iteraciones o sprints, y que pretenden asegurar el rápido y constante progreso del equipo Scrum, a la par que mejora continuamente su forma de trabajar.
   
   - Planificación del sprint:
-    > 
+    > Se produce al iniciar cada  Sprint y tiene por objetivo decidir que se va a realizar en el Sprint.
+
   
   - Reuniones scrum diarias:
-    > 
+    > Se produce diariamente, y tiene un máximo de  20 min. de duración. Tiene por objeto tratar qué es lo que se hizo, qué se va a hacer y qué problemas se han encontrado, esto a fines de encontrar soluciones en la diaria. No son reuniones de reporte de estado al Scrum Master, son COMPROMISOS frente a los demas miembros del equipo. 
+
   
   - Sprint review:
-    > 
+    > Se produce al finalizar el Sprint y tiene por objeto mostrar qué es lo que se ha completado y qué no. Debe estar presente el  Product Owner.
   
   - Retrospectiva:
-    > 
+    > Se produce al  finalizar el Sprint y tiene por objeto documentar qué ha funcionado y qué no ha funcionado en el Sprint. La idea de dicha reunión es centrar al equipo en lo que salió bien y en lo que debe mejorar para la próxima iteración.
+
   
 </div>
 
@@ -42,10 +45,10 @@
     > El Product Backlog es un inventario que contiene cualquier tipo de trabajo que haya que hacer en el producto: requerimientos, casos de uso, tareas y dependencias. Es la principal fuente de información sobre el producto en Scrum, una lista, en cualquier formato, que contiene todos los requerimientos que necesitamos implementar en el producto. Esta lista es el resultado del trabajo del Product Owner con el cliente, los distintos stakeholders, sponsors, comités, etc, y refleja el estado real del trabajo pendiente de implementar en el producto, así como el ya realizado. 
   
   - Sprint Backlog:
-    > 
+    > El Sprint Backlog toma en cuenta elementos específicos del Product Backlog, en los que se centerará el sprint actual. Es por así llamarlo, una imagen del trabajo real que se está realizando en el momento. Se trata de un artefacto flexible, que se adapta a las necesidades, cambiando el orden del trabajo, quitando las tareas innecesarias, y agregando las que sean necesarias. Este listado lo supervisa el Scrum Master, y el Product Owner puede ayudarle a elaborarlo, finalmente es el equipo de desarrollo quien controla el listado.
   
   - Incremento:
-    > 
+    > El incremento es el incremento del producto. Por ejemplo: una pieza que funciona del software que se está desarrollando, que representa a su vez un conjunto de elementos completados del backlog del producto. Debe estar alineado con la definición de hecho o DoD, y también debe ser aceptado por el product owner, quien decide si se lanzará.
   
 </div>
 
