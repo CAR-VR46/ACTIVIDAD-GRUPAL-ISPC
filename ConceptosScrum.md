@@ -62,7 +62,7 @@
   <h3>Roles</h3>
   
   - Definición:
-    > 
+    > Un equipo Scrum suele estar compuesto por grupos de trabajo de entre 3 a 9 miembros del equipo de desarrollo, más el Scrum Master y el Product Owner. Cada uno de estos roles tiene diferentes responsabilidades y debe de rendir cuentas de distinta manera, tanto entre ellos como para el resto de la organización. La suma de todos los roles es lo que llamamos Equipo Scrum.
   
   - Product Owner:
     > Es la persona encargada de optimizar y maximizar el valor del producto. Gestiona el flujo de valor del producto a traves del Product Backlog. Esta persona va a trabajar con los stakeholders para la toma de requerimientos y ademas con los sponsors del proyecto/producto. Basicamente es como un representante de negocio el cual da cara al publico para asegurarse de que su producto sea el correcto.
