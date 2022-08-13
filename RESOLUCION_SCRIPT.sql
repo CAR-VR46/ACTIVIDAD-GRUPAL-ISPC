@@ -7,7 +7,7 @@ USE Ejercicio_final_luciano_nieves;
 
 -- Tabla Dueno
 CREATE TABLE Dueno(
-	DNI int NOT NULL auto_increment PRIMARY KEY,
+	DNI int NOT NULL PRIMARY KEY,
 	Nombre varchar(50) NOT NULL,
 	Apellido varchar(50) NOT NULL,
 	Telefono varchar(50) NOT NULL,
@@ -36,9 +36,9 @@ CREATE TABLE Historial(
 
 ALTER TABLE Historial ADD FOREIGN KEY (Perro) REFERENCES Perro(ID_Perro);
 
-INSERT INTO Dueno(Nombre, Apellido, Telefono, Direccion) VALUES('Pablo', 'Perez', '154768930', 'Las toninas 2044');
+INSERT INTO Dueno(DNI, Nombre, Apellido, Telefono, Direccion) VALUES('1234567', 'Pablo', 'Perez', '154768930', 'Las toninas 2044');
 
-INSERT INTO Perro(Nombre, Fecha_nac, Sexo, DNI_dueno) VALUES('Ailin', '10/05/2019', 'Hembra', 1);
+INSERT INTO Perro(Nombre, Fecha_nac, Sexo, DNI_dueno) VALUES('Ailin', '10/05/2019', 'Hembra', '1234567');
 
 ----------------------------------------------------------------------------------
 
