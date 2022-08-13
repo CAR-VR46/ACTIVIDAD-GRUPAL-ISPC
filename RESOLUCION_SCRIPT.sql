@@ -5,34 +5,40 @@ CREATE DATABASE Ejercicio_final_luciano_nieves;
 
 USE Ejercicio_final_luciano_nieves;
 
+-- Tabla Dueno
 CREATE TABLE Dueno(
-	DNI int,
-	Nombre varchar(50),
-	Apellido varchar(50),
-	Telefono varchar(50),
-	Direccion varchar(50),
-	constraint pk_DNI primary key (DNI)
+	DNI int NOT NULL auto_increment PRIMARY KEY,
+	Nombre varchar(50) NOT NULL,
+	Apellido varchar(50) NOT NULL,
+	Telefono varchar(50) NOT NULL,
+	Direccion varchar(50) NOT NULL
 )
 
+-- Tabla Perro
 CREATE TABLE Perro(
-	ID_Perro int,
-	Nombre varchar(50),
-	Fecha_nac varchar(50),
-	Sexo varchar(50),
-	DNI_dueno int,
-	constraint pk_ID_Perro primary key (ID_Perro),
-	constraint fk_DNI_dueno foreign key(DNI_dueno) references Dueno (DNI)
+	ID_Perro int NOT NULL auto_increment PRIMARY KEY,
+	Nombre varchar(50) NOT NULL,
+	Fecha_nac varchar(50) NOT NULL,
+	Sexo varchar(50) NOT NULL,
+	DNI_dueno int NOT NULL
 )
 
+ALTER TABLE Perro ADD FOREIGN KEY (DNI_dueno) REFERENCES Dueno(DNI);
+
+-- Tabla Historial
 CREATE TABLE Historial(
-	ID_Historial int,
-	Fecha varchar(50),
-	Perro int,
-	Descripcion varchar(50),
-	Monto float,
-	constraint pk_ID_Historial primary key (ID_Historial),
-	constraint fk_Perro foreign key(Perro) references Perro (ID_Perro)
+	ID_Historial int NOT NULL auto_increment PRIMARY KEY,
+	Fecha varchar(50) NOT NULL,
+	Perro int NOT NULL,
+	Descripcion varchar(50) NOT NULL,
+	Monto float NOT NULL
 )
+
+ALTER TABLE Historial ADD FOREIGN KEY (Perro) REFERENCES Perro(ID_Perro);
+
+INSERT INTO Dueno(Nombre, Apellido, Telefono, Direccion) VALUES('Pablo', 'Perez', '154768930', 'Las toninas 2044');
+
+INSERT INTO Perro(Nombre, Fecha_nac, Sexo, DNI_dueno) VALUES('Ailin', '10/05/2019', 'Hembra', 1);
 
 ----------------------------------------------------------------------------------
 
