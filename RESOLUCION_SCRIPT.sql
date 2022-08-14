@@ -36,9 +36,12 @@ CREATE TABLE Historial(
 
 ALTER TABLE Historial ADD FOREIGN KEY (Perro) REFERENCES Perro(ID_Perro);
 
+-- INSERTO 2 DUEÑOS Y PERROS:
 INSERT INTO Dueno(DNI, Nombre, Apellido, Telefono, Direccion) VALUES('1234567', 'Pablo', 'Perez', '154768930', 'Las toninas 2044');
+INSERT INTO Dueno(DNI, Nombre, Apellido, Telefono, Direccion) VALUES('2345678', 'Pedro', 'Garcia', '154878922', 'Barcarcel 3945');
 
 INSERT INTO Perro(Nombre, Fecha_nac, Sexo, DNI_dueno) VALUES('Ailin', '10/05/2019', 'Hembra', '1234567');
+INSERT INTO Perro(Nombre, Fecha_nac, Sexo, DNI_dueno) VALUES('Pocho', '12/08/2018', 'Macho', '2345678');
 
 ----------------------------------------------------------------------------------
 
